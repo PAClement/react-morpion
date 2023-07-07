@@ -91,11 +91,11 @@ const Game = () => {
             <div className="d-flex justify-content-around">
                 <div className={'d-flex flex-column'}>
                     <h3 className={'mb-5'}>Joueur 1 (X)</h3>
-                    <p className={'text-center'}>{scoreX}</p>
+                    <p className={'fs-3 fw-bold text-center'}>{scoreX}</p>
                 </div>
                 <div className={'d-flex flex-column'}>
                     <h3 className={'mb-5'}>Joueur 2 (O)</h3>
-                    <p className={'text-center'}>{scoreO}</p>
+                    <p className={'fs-3 fw-bold text-center'}>{scoreO}</p>
                 </div>
             </div>
         </>
