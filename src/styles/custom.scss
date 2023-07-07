@@ -1,0 +1,64 @@
+body{
+  color: white;
+}
+
+.morpion-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.status {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+}
+
+.square {
+  width: 80px;
+  height: 80px;
+  font-size: 32px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  background-color: #343a40;
+  color: #fff;
+  cursor: pointer;
+}
+
+.square:hover {
+  background-color: #4d4d4d;
+}
+
+.score {
+  font-size: 18px;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.score div {
+  margin-bottom: 5px;
+}
+
+.score div:first-child {
+  font-weight: bold;
+}
